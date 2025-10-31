@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+//Function Defination
+void greet()
+{
+    cout<<"HAPPY BIRTHDAY!!😎"<<endl;
+}
+int main() 
+{
+    greet();//calling the function
+    greet();
+    greet();
+    greet();
+    greet();
+    greet();
+    greet();
+    
+    return 0;
+}

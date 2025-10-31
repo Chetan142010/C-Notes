@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a = 10,b = 20;
+    cout<<"Greater :"<< (a < b)<<endl;
+    cout<<"Lesser :"<<(a > b) <<endl;
+    cout<<"Greater Than or Equals to :"<<(a >= b) <<endl;
+    return 0;
+}

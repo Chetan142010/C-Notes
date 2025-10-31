@@ -1,0 +1,74 @@
+#include <iostream>
+using namespace std;
+
+class Teacher{
+    private :
+    //Data members
+    string name;
+    string subject;
+    int year;
+    public :
+            void sedetail(string tname, string tsubject , int tyear) 
+            {
+                name = tname;
+                subject = tsubject;
+                year = tyear;
+            }
+        //member fuction
+        void display()
+    {
+        cout << "Name" << name
+             << "Subject" << subject
+             << "Year" << year << endl;
+        
+    }
+};
+------------------------------------------------------------------------------------------------------------------------
+
+To access private class
+
+#include <iostream>
+using namespace std;
+
+class Teacher{
+    private :
+    //Data members
+    string name;
+    string subject;
+    int year;
+    public :
+            void setdetail(string tname, string tsubject , int tyear) 
+            {
+                name = tname;
+                subject = tsubject;
+                year = tyear;
+            }
+        //member fuction
+        void display()
+    {
+        cout << "Name :" << name 
+             << "Subject :" << subject 
+             << "Year :" << year << endl;
+        
+    }
+};     
+     int main() {
+         //create 2 object
+         Teacher t1, t2, t3;
+         //Assign values to object
+         /*t1.name = "Samantha";
+         t1.subject = "Biology";
+         t1.year = 9; */
+         
+         t1.setdetail("Samantha ","Biology ",9);
+         t2.setdetail("Dhanush ","CS ",4);
+         t3.setdetail("Kavin ","CS ",7);
+         
+         t1.display();
+         cout<<endl;
+         t2.display();
+         cout<<endl;
+         t3.display();
+         return 0;
+         
+     }

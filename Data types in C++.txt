@@ -1,0 +1,18 @@
+Variables  >>>> In  C++ Are used to store data and manipulated through a program.
+
+Data Types in C++
+
+Data types help the complier ballocate the appreciate amount of memory and determine how to interpret the data.
+
+ 
+int  >>>>    These are used to satore integer values  (Whole number)   i,e 1,2,3,4,
+
+float       >>> Used to store Decimal values >>> i,e  10.4, 7.7
+
+double  >>>  i.e 10.7777  , 5.764 
+
+char  >>> Used to store3 a single character i.e A  ,  D.
+
+string  >>  i.e  "Hello"  >>>  'Hello'   >>>   "Hello"
+
+    

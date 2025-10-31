@@ -1,0 +1,316 @@
+#include <iostream>
+using namespace std;
+
+    class Car{
+        public:    //public Acess Specifer
+        string brand;
+        string model;
+        int price;
+        int year;
+    };
+    
+    int main(){
+        Car car1; //creating an object of the class
+        car1.brand = "FORD";
+        car1.model = "MUSTAG";
+        car1.price = 7500000;
+        car1.year = 1979;
+        
+        cout<< car1.brand<<endl; //direct way of printing
+        cout<<car1.model<<endl;
+        cout<<car1.price<<endl;
+        cout<<car1.year<<endl;
+         
+         
+    return 0;
+    }
+------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+    class Car{
+        public:    //public Acess Specifer
+        string brand;
+        string model;
+        int price;
+        int year;
+    };
+    
+    int main(){
+        Car car1; //creating an object of the class
+        car1.brand = "FORD";
+        car1.model = "MUSTAG";
+        car1.price = 7500000;
+        car1.year = 1979;
+        
+        cout<< car1.brand<<endl; //direct way of printing
+        cout<<car1.model<<endl;
+        cout<<car1.price<<endl;
+        cout<<car1.year<<endl;
+         
+         
+    return 0;
+    }
+------------------------------------------------------------------------------------------------------------------------
+void display
+
+#include <iostream>
+using namespace std;
+
+    class Car{
+        public:    //public Acess Specifer
+        string brand;
+        string model;
+        int price;
+        int year;
+    
+       void display()
+       {
+           cout<<"Brand name"<<brand<<endl;
+           cout<<"Model name"<<model<<endl;
+           cout<<"price"<<price<<endl;
+           cout<<"Year of Manufacturing"<<year<<endl;
+           
+       }
+       
+       
+    };
+       int main(){
+        Car car1; //creating an object of the class
+        car1.brand = "FORD";
+        car1.model = "MUSTAG";
+        car1.price = 7500000;
+        car1.year = 1979;
+        
+        cout<< car1.brand<<endl; //direct way of printing
+        cout<<car1.model<<endl;
+        cout<<car1.price<<endl;
+        cout<<car1.year<<endl;
+         car1.display();
+         
+    return 0;
+    }
+------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+    class Car{
+        public:    //public Acess Specifer
+        string brand;
+        string model;
+        int price;
+        int year;
+    
+       void display()
+       {
+           cout<<"Brand name"<<brand<<endl;
+           cout<<"Model name"<<model<<endl;
+           cout<<"price"<<price<<endl;
+           cout<<"Year of Manufacturing"<<year<<endl;
+           
+       }
+       
+       
+    };
+       int main(){
+        Car car1; //creating an object of the class
+        car1.brand = "FORD";
+        car1.model = "MUSTAG";
+        car1.price = 7500000;
+        car1.year = 1979;
+        
+        Car car2;
+        car2.brand = "Mercedes";
+        car2.model = "G-class";
+        car2.price = 5000000;
+        car2.year = 2014;
+        
+        cout<< car1.brand<<endl; //direct way of printing
+        cout<<car1.model<<endl;
+        cout<<car1.price<<endl;
+        cout<<car1.year<<endl;
+         car1.display();
+         car2.display();
+    return 0;
+    }
+------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+    class Car{
+        public:    //public Acess Specifer
+        string brand;
+        string model;
+        int price;
+        int year;
+    
+       void display()
+       {
+           cout<<"Brand name "<<brand<<endl;
+           cout<<"Model name "<<model<<endl;
+           cout<<"Price "<<price<<endl;
+           cout<<"Year of Manufacturing "<<year<<endl;
+           
+       }
+       
+       
+    };
+       int main(){
+        Car car1; //creating an object of the class
+        cout<<"Enter the Brand name: "<<endl;
+        //cin >> car1.brand
+        getline(cin,car1.brand);
+          cout<<"Enter the Model name: "<<endl;
+        getline(cin,car1.model);
+          cout<<"Enter the Price: "<<endl;
+          cin>>car1.price;
+          cout<<"Enter the Man.F Year: "<<endl;
+          cin>>car1.year;
+          car1.display();
+        
+          Car car2;
+          cout<<"Enter the Brand name: "<<endl;
+          //cin>> car2 .brand
+          getline(cin,car2.brand);
+           cout<<"Enter the Model name: "<<endl;
+          getline(cin,car2.model);
+           cout<<"Enter the Price: "<<endl;
+          cin>>car2.price;
+          cout<<"Enter the Man.F Year: "<<endl;
+          cin>>car2.year;
+          car2.display();
+        
+        
+        cout<< car1.brand<<endl; //direct way of printing
+        cout<<car1.model<<endl;
+        cout<<car1.price<<endl;
+        cout<<car1.year<<endl;
+         car1.display();
+         car2.display();
+    return 0;
+    }
+ 
+------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+    class Car{
+        public:    //public Acess Specifer
+        string brand;
+        string model;
+        int price;
+        int year;
+    
+       void display()
+       {
+           cout<<"Brand name "<<brand<<endl;
+           cout<<"Model name "<<model<<endl;
+           cout<<"Price "<<price<<endl;
+           cout<<"Year of Manufacturing "<<year<<endl;
+           
+       }
+       
+       
+    };
+       int main(){
+        Car car1; //creating an object of the class
+        cout<<"Enter the Brand name: "<<endl;
+        //cin >> car1.brand
+        getline(cin,car1.brand);
+          cout<<"Enter the Model name: "<<endl;
+        getline(cin,car1.model);
+          cout<<"Enter the Price: "<<endl;
+          cin>>car1.price;
+          cout<<"Enter the Man.F Year: "<<endl;
+          cin>>car1.year;
+          car1.display();
+          
+          cin.ignore();
+        
+          Car car2;
+          cout<<"Enter the Brand name: "<<endl;
+          //cin>> car2 .brand
+          getline(cin,car2.brand);
+           cout<<"Enter the Model name: "<<endl;
+          getline(cin,car2.model);
+           cout<<"Enter the Price: "<<endl;
+          cin>>car2.price;
+          cout<<"Enter the Man.F Year: "<<endl;
+          cin>>car2.year;
+          car2.display();
+        
+        
+    return 0;
+    }
+------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+//class defination
+
+    class Teacher {
+    public:
+    string teacher_name; //data member
+    string subject_they_teach;
+    int years_of_experience;
+    char gender;
+    
+     //member function 
+     void display() {
+         cout << "teacher_name :" << teacher_name <<endl; 
+         cout<< "subject_they_teach :" << subject_they_teach <<endl;
+         cout<< "years_of_experience :" <<years_of_experience  <<endl; 
+         cout<< "gender :" << gender <<endl;
+         
+    }
+    
+};
+
+int main() {
+    //creating an object of the class
+    Teacher zacheen_sir;
+    
+    cout << "enter ur teacher_name :"<< endl;
+    //cin >>car1.brand;
+    getline(cin,zacheen_sir.teacher_name);
+    
+    cout << "enter ur subject_they_teach:"<< endl;
+   // cin >>car1.model;
+   getline(cin,zacheen_sir.subject_they_teach);
+    
+    cout << "enter ur years_of_experience :"<< endl;
+    cin >>zacheen_sir.years_of_experience;
+    
+    cout << "enter ur gender:"<< endl;
+    cin >>zacheen_sir.gender;
+    
+   
+    cin.ignore(); //buffer values will be ignored
+   
+   Teacher ramya_mam; //creating an object to the class car
+     
+ cout << "enter ur teacher_name  :"<< endl;
+    //cin >>.brand
+    getline(cin,ramya_mam.teacher_name);
+    
+    cout << "enter ur subject_they_teach:"<< endl;
+   // cin >>car1.model;
+   getline(cin,ramya_mam.subject_they_teach);
+    
+    cout << "enter ur years_of_experience :"<< endl;
+    cin >>ramya_mam.years_of_experience;
+    
+    cout << "enter ur gender :"<< endl;
+    cin >>ramya_mam.gender;
+    
+    zacheen_sir.display();
+    ramya_mam.display();
+   
+   
+   return 0;
+}

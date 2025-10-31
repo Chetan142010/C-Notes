@@ -1,0 +1,30 @@
+#include <iostream>
+ using namespace std;
+ 
+ class Movie{
+     public:
+     string title;
+     string director;
+     double duration;
+     double collection;
+     double rating;
+     
+     Movie(string t, string d, double r,double c, double s)
+     
+     {
+         cout << "Movie Title :"<<t<<endl;
+         cout << "Director :"<<d<<endl;
+         cout << "Duration :"<<r<<"min"<<endl;
+         cout << "Collection :"<<c<<"Cr"<<endl;
+         cout << "Rating :"<<s<<endl;
+     }
+ };    
+    
+       int main()
+       {
+           Movie M1("Vada Chennai","Vetri Maran",240,100,9);
+           cout<<endl;
+           Movie M2("Kaithi","Lokesh kanakaraj",166,25,8.9);
+           
+           return 0;
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+ using namespace std;
+ 
+ class Parent {
+     public:
+     void food()
+     {
+         cout << "Inherited.burger" ; }    
+ };
+ class Child : public Parent // Creating the child class and inheriting it
+ {};
+ 
+ int main()
+ {
+     Child b;
+     b.food();
+     return 0;
+ }

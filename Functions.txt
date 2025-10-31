@@ -1,0 +1,63 @@
+#include <iostream>
+using namespace std;
+
+  //Function Defination
+  int add(int a , int b) //Passing Parameters
+  {
+      return a + b;      //Reuturning the values
+  }
+  
+  int sub(int a , int b)
+  {
+      return a - b;
+  }
+  int mul(int a , int b)
+  {
+      return a * b;
+  }
+  int main()
+  {
+      cout<<"ADDITION :"<<add(5,10)<<endl;
+      cout<<"MULTIPILICATION :"<<mul(5,10)<<endl;
+      cout<<"SUBTRATION :"<<sub(5,10)<<endl;
+      
+      return 0;
+  }
+------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+//Function Defination
+  int add(int a , int b) //Passing Parameters
+  {
+      return a + b;      //Reuturning the values
+  }
+  
+  int sub(int a , int b)
+  {
+      return a - b;
+  }
+  int mul(int a , int b)
+  {
+      return a * b;
+  }
+  float div1(int a , int b)
+  {
+      if(b==0)
+      {
+          cout<<"Division by zero!!Infinite"<<endl;
+          return 0;
+      }
+      return (float)a / b;
+  }
+  
+  int main()
+  {
+      cout<<"ADDITION :"<<add(5,10)<<endl;
+      cout<<"SUBTRATION :"<<sub(5,10)<<endl;
+      cout<<"MULTIPICATION :"<<mul(5,10)<<endl;
+      cout<<"division :"<<div1(5,10)<<endl;
+      
+      return 0;
+  }  

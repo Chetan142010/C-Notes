@@ -1,0 +1,8 @@
+Functions in C++
+A Function in C++ is a group of statements that performs a specific task and can be reused anywhere in the program.
+
+1. Reusability - write once , many times.
+2. Readability - code becomes easier to read and understand.
+3. Debugging - Errors are easier to find since each function is small and focused.
+4. Modularity - Large programs are divided intyo smaller parts.
+5. Collaboration - Multiple people can work on different functions of same program.

@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a = 10;
+    cout << "Enter Your Reg No."<<a;
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a;
+    cout << "Enter Your Reg No.";
+    cin >> a;
+    cout << "Your Reg No is;"<<a;
+    
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a;
+    int b;
+    cout << "Enter Your Reg No:Mikey. ";
+    cin >> a;
+    cout << "Mikey Reg No is;"<<a;
+    
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a ;
+    int b;
+    cout <<"Enter Your Reg No: Mikey.";
+    cin >> a;
+    cout <<"Enter Your Frnds Reg No.";
+    cin >> b;
+    cout <<"Mikey Your Reg No is:"<<a<<endl;
+    cout <<"Your Frnds Reg No is :"<<b;
+    return 0;
+}
+-----------------------------------------------------------------------------------------------------------------------
+

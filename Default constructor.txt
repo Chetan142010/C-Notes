@@ -1,0 +1,227 @@
+#include <iostream>
+ using namespace std;
+ 
+ class car{
+     public:
+     string make;
+     string model;
+     int year;
+     
+     //default constructions ( no parameters)
+     
+     car(){
+         make = "BENZ";
+         model = "Xo8";
+         year = 2019;
+         
+     }
+     void displayinfo(){
+         cout << year <<" "<< make <<" "<<model <<endl;
+     }
+ };
+  int main(){
+      car myCar;
+      
+      myCar.displayinfo();
+      return 0;
+  }
+
+ -----------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+ using namespace std;
+ 
+ class Teacher{
+     public:
+     string name;
+     string dept;
+     int experience;
+     double salary;
+     
+     //constructor
+     Teacher()
+     {
+         cout << "Heiiiiii I am a defualt constructor"<<endl;
+     }
+     void displayinfo()
+     {
+         cout << " Teacher name : " <<name<<endl;
+         cout << " Department : " <<name<<endl;
+         cout << " Experience : " <<name<<endl;
+         cout << " Salary : " <<name<<endl;
+     }
+ };
+     
+     int main()
+     {
+         Teacher T1;//create an object
+     
+      return 0;
+  }
+ -----------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+ using namespace std;
+ 
+ class Teacher{
+     public:
+     string name;
+     string dept;
+     int experience;
+     double salary;
+     
+     //constructor
+     Teacher()
+     {
+         name = "Arjun";
+         dept = "computer science";
+         experience = 10;
+         salary = 75000;
+     }
+     void displayinfo()
+     {
+         cout << " Teacher name : " <<name<<endl;
+         cout << " Department : " <<dept<<endl;
+         cout << " Experience : " <<experience<<endl;
+         cout << " Salary : " <<salary<<endl;
+     }
+ };
+     
+     int main()
+     {
+         Teacher T1;//create an object
+         T1.displayinfo();
+      return 0;
+  }
+ -----------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+ using namespace std;
+ 
+ class Teacher{
+     public:
+     string name;
+     string dept;
+     int experience;
+     double salary;
+     
+     //constructor
+     Teacher()
+     {
+         name = "Arjun";
+         dept = "computer science";
+         experience = 10;
+         salary = 75000;
+         
+         cout << " Teacher name : " <<name<<endl;
+         cout << " Department : " <<dept<<endl;
+         cout << " Experience : " <<experience<<endl;
+         cout << " Salary : " <<salary<<endl;
+         
+         
+         
+     }
+ };
+     
+     int main()
+     {
+         Teacher T1;//create an object
+        
+      return 0;
+  }
+ -----------------------------------------------------------------------------------------------------------------------
+without return
+
+#include <iostream>
+ using namespace std;
+ 
+ class Teacher{
+     public:
+     string name;
+     string dept;
+     int experience;
+     float salary;
+     
+     //constructor
+     Teacher()
+     {
+         
+         cout << " Teacher name : " <<"Arjun"<<endl;
+         cout << " Department : " <<"computer science"<<endl;
+         cout << " Experience : " << 10<<endl;
+         cout << " Salary : " << 75000<<endl;
+         
+         
+         
+     }
+ };
+     
+     int main()
+     {
+         Teacher T1;//create an object
+       
+     }
+ -----------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+ using namespace std;
+ 
+ class Teacher{
+     public:
+     string name;
+     string dept;
+     int experience;
+     int salary;
+     
+     //constructor
+     Teacher(string n, string d, int e, int s)
+    
+        // name = n;
+         //dept = d;
+         //experience = e;
+         //salary = s;
+    
+     {
+         cout << " Teacher name : " <<n<<endl;
+         cout << " Department : " <<d<<endl;
+         cout << " Experience : " <<e<<endl;
+         cout << " Salary : " <<s<<endl;
+         
+     }
+ };
+     
+     int main()
+     {
+         Teacher T1("Arjun","CSE",10,75000);//create an object
+       
+     }
+------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+ using namespace std;
+ 
+ class Teacher{
+     public:
+     string name;
+     string dept;
+     int experience;
+     int salary;
+     
+     //constructor
+     Teacher(string n, string d, int e, int s)
+    
+     {
+         cout << " Teacher name : " <<n<<endl;
+         cout << " Department : " <<d<<endl;
+         cout << " Experience : " <<e<<endl;
+         cout << " Salary : " <<s<<endl;
+         
+     }
+ };
+     
+     int main()
+     {
+         Teacher T1("Arjun","CSE",10,75000);//create an object
+         cout<<endl;
+         Teacher T2("Dhanush","Maths",7,80000);  
+     }

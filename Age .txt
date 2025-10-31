@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main() {
+    
+    int age;
+    cout << "Enter a age :";
+    cin >> age;
+    if (age>=18)
+    {
+        cout << "HE/SHE IS ELIGIBLE FOR VOTE(ahaaaa)";
+    }
+    else 
+    {
+         cout << "NOT ELIGIBLE FOR PADIYAMMA CLASS(romba kastam daaa)";
+    }
+    return 0;
+    }
+------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main() {
+    
+    int age;
+    cout << "Enter a age :";
+    cin >> age;
+    if (age>=18)
+    {
+        cout << "HE/SHE IS ELIGIBLE FOR VOTE(ahaaaa)";
+    }
+    else 
+    {
+        int years_left = 18 - age;
+         cout << "NOT ELIGIBLE FOR PADIYAMMA CLASS(romba kastam daaa)"<<endl;
+         cout<< "You have to wait for "<<years_left<<"Years";
+    }
+    return 0;
+    }

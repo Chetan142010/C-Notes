@@ -1,0 +1,50 @@
+for loop
+
+//Printing numbers from 1 to 5 using for loop 
+#include <iostream>
+using namespace std;
+int main() {
+    
+  int i = 1;
+  
+  for(i <= 10)
+    {
+        cout<< i <<endl;
+        i++;
+    }
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------
+while loop
+
+//Printing numbers from 1 to 5 using for loop 
+#include <iostream>
+using namespace std;
+int main() {
+    
+  int i = 1;
+  
+  while(i <= 10)
+    {
+        cout<< i <<endl;
+        i++;
+    }
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------
+do while
+
+#include <iostream>
+using namespace std;
+int main() {
+    
+  int i = 1;
+  
+  do
+    {
+        cout<< i <<endl;
+        i++;
+    }while(i <=10);
+    
+    return 0;
+}

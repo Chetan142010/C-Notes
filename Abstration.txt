@@ -1,0 +1,22 @@
+#include <iostream>
+ using namespace std;
+ 
+ class Cal{
+     public:
+     int a, b;
+    
+      void print_out()
+      {
+          cout<<"Enter 2 numbers"<<endl;
+          cin>>a>>b;
+          cout<<"Addition "<<a+b<<endl;
+      }
+ }; 
+ 
+       int main()
+       {
+           Cal c;
+           c.print_out();//abstraction 
+           return 0;
+           
+}
