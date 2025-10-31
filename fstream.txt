@@ -1,0 +1,21 @@
+#include <iostream>
+ #include <fstream>
+using namespace std;
+
+int main() {
+    //Create and open a file
+    ofstream file("data.txt");
+    
+    //Write something to the file
+    file << "Hello Students! WElCOME to File Handling in C++.";
+    file.close(); //Close the file after writing
+    
+    //Read the same file
+    ifstream readFile("data.txt");
+    string line;
+    getline(readFile, line); //Read one line from the file
+    cout << "File content" <<line << endl;
+    
+    readFile.close(); //Always close the file
+    return 0;
+}
